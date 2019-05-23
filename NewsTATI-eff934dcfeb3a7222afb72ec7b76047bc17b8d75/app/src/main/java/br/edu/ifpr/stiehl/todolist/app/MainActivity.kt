@@ -17,6 +17,7 @@ import retrofit2.*
 import retrofit2.converter.gson.GsonConverterFactory
 import android.widget.SearchView
 import kotlinx.android.synthetic.main.item_article.*
+import java.util.*
 
 
 class MainActivity : AppCompatActivity() {
@@ -56,7 +57,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun carregaDados(q:String) {
-        service.news("br", "5bf5c78e95d84b0387036b52fcaa02f2", q).enqueue(object : Callback<NewsResult> {
+        service.news(this.getResources().getConfiguration().locale.getCountry(), "5bf5c78e95d84b0387036b52fcaa02f2", q).enqueue(object : Callback<NewsResult> {
             override fun onFailure(call: Call<NewsResult>, t: Throwable) {
             }
 
