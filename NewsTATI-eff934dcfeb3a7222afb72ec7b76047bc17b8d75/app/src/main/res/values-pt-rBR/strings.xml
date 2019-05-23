@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TodoList</string>
+    <string name="titulo">Título</string>
+    <string name="descricao">Descrição</string>
+    <string name="mensagem_compartilhar">Oba! Acabei de terminar:</string>
+</resources>
