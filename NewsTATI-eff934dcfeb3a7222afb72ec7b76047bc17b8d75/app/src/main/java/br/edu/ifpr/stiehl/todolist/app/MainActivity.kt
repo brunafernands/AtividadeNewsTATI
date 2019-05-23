@@ -1,7 +1,10 @@
 package br.edu.ifpr.stiehl.todolist.app
 
+import android.content.Intent
+import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import br.edu.ifpr.stiehl.todolist.R
@@ -13,6 +16,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 import retrofit2.*
 import retrofit2.converter.gson.GsonConverterFactory
 import android.widget.SearchView
+import kotlinx.android.synthetic.main.item_article.*
 
 
 class MainActivity : AppCompatActivity() {
