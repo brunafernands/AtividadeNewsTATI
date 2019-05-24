@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name" translatable="false">TodoList</string>
+    <string name="app_name" translatable="false">News</string>
     <string name="titulo">Title</string>
     <string name="descricao">Description</string>
     <string name="mensagem_compartilhar">Wow! I\'ve just finished:</string>
